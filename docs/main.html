@@ -1,0 +1,159 @@
+<!doctype html>
+<html>
+
+
+<head>
+	<title>MANIA 2.0</title>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" href="jkstyle.css" type="text/css" />
+	<link href='https://fonts.googleapis.com/css?family=Crimson+Text:600' rel='stylesheet' type='text/css'>
+  <style>
+  /* General font assignment for all headers */
+
+h1, h2, h3, h4, h5, header {
+  font-family:"Crimson Text", "Lucida Sans Unicode","Times New Roman", serif;
+} /* <--- THIS IS IRNORED ???? */
+
+
+header {
+  color:#232323;
+  font-size:48px;
+  font-style:normal;
+  font-weight:500;
+  letter-spacing:-1px;
+  line-height:1.1em;
+  margin:30px 0;
+  text-align:center;
+  font-size:42px;
+}
+
+
+
+/*The Container Div for All Content...would want to nest this inside something else with CENTER*/
+
+section.box-container {
+  padding-left: 15px;
+  overflow: hidden;
+  margin-bottom: 40px;
+  margin-top: 10px;
+  width:840px;
+}
+
+section.box-container h2 {
+width:800px;
+}
+
+
+
+
+/*Formatting for columns of the box */
+
+div.column {
+  float:left;
+  margin-right:40px;
+  width:380px;
+}
+
+a.box.end, body.index div.column.end {
+  margin-right:0;
+}
+
+
+div.column div.belief {
+  text-align: left;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
+  line-height: 1.4em;
+  font-size: 12px;
+  overflow: hidden;
+  margin: 20px 0;
+}
+
+div.column div.belief.top { margin-top: 0; }
+div.column div.belief.bottom { margin-bottom: 0; }
+
+div.column div.belief h3 { float: left; font-size: 58px; font-weight: 500; line-height: normal; margin: -10px 15px 0 0; color: #ccc; width: 30px; }
+
+div.column div.belief h4 {
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
+  font-size: 16px;
+  margin: 5px 0;
+  color: #cc0000;
+}
+
+div.column div.belief p {
+  margin: 0 0 0 45px;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
+}
+
+
+  </style>
+</head>
+<body>
+
+<section class="box-container">
+
+      <header>This repository contains all notebooks related to MANIA 2.0</header>
+
+      <div class="column">
+        <div class="belief top">
+          <h3 style="padding-left: 5px; width: 25px;">1</h3>
+          <h4><a href="physical-adjacency.html">Physical Adjacency</a></h4>
+          <p>How physical adjacency between ROIs affect the MANIA results? What percentage of adjacent ROIs are connected and vice versa?</p>
+        </div>
+
+        <div class="belief">
+          <h3>2</h3>
+          <h4><a href="jaccard.html">Across subject study<a/></h4>
+          <p>How MANIA results varies between subjects</p>
+        </div>
+
+        <div class="belief">
+          <h3>3.1</h3>
+          <h4><a href="regression.html">Regression results</a></h4>
+          <p>The interplay of NOS and distance. Can we regress out the distance effect from NOS?</p>
+        </div>
+				<div class="belief">
+          <h3>3.2</h3>
+          <h4><a href="regression-params.html">Regression Parameters</a></h4>
+          <p>The intercepts, slopes and R2 for regression lines</p>
+        </div>
+
+        <div class="belief bottom">
+          <h3>4</h3>
+          <h4><a href="global.html">Global Regression</a></h4>
+          <p>Global Regression results</p>
+        </div>
+      </div>
+
+      <div class="column end">
+        <div class="belief top">
+          <h3>5</h3>
+          <h4>Network Analysis - Nodes</h4>
+          <p>Looking at top nodes based on different metrics</p>
+        </div>
+
+        <div class="belief">
+          <h3>6</h3>
+          <h4>Network Analysis - Edges</h4>
+          <p>Looking at top edges based on different metrics</p>
+        </div>
+
+        <div class="belief">
+          <h3>7</h3>
+          <h4>ROIs</h4>
+          <p>Statisticas about ROI sizes and other ROI metrics</p>
+        </div>
+
+        <div class="belief bottom">
+          <h3>8</h3>
+          <h4>MANIA1 vs MANIA2</h4>
+          <p>How MANIA 2.0 improve results of MANIA 1.0</p>
+        </div>
+      </div>
+
+    </section>
+
+
+
+
+</body>
