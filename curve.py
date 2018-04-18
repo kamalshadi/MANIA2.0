@@ -328,6 +328,7 @@ def mixed_regressor(R,local,r2,std,s,t):
 def all_regressors(R,A):
     l = len(A)
     D = {}
+    # (slope, intercept, r2, std, kind=0,1,2,3)
     for i in range(l):
         n1 = A[i]['n1']
         n2 = A[i]['n2']
